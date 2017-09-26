@@ -101,6 +101,11 @@ class TemperatureAPI():
 ### use demo:
 
 ```python
+# import dependent libraries
+import sys
+import pypyodbc
+import pandas as pd
+
 # connection configurations
 db_host = 'url'
 db_name = 'xxx'
