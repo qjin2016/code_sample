@@ -101,6 +101,8 @@ class TemperatureAPI():
 ### use demo:
 
 ```python
+# the following code has been tested only on Python2.7, please consider using the same python environment
+
 # import dependent libraries
 import sys
 import pypyodbc
