@@ -8,7 +8,7 @@ The code was written to connect to a MSSQL server on Amazon Web Service (AWS), q
 
 ### 2, Interactive data visualization: https://github.com/qjin2016/code_sample/tree/master/web
 
-The link contains an interactive data visualization tool built on top of HTML, CSS, jQuery and d3.js. This tool is currently accessible online: http://students.washington.edu/jinqu/viz_discussion/web/
+The link contains an interactive data visualization tool built on top of HTML, CSS, jQuery and d3.js. This tool is currently accessible online (please use Chrome to view this visualization): http://students.washington.edu/jinqu/viz_discussion/web/ 
 
 This tool was built to visualize various topics of class discussions. Data was scraped from online class discussion platform and topics was generated through LDA algorithm. Code for data collection and topic mining is not included here. 
 
