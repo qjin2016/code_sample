@@ -2,9 +2,9 @@
 
 Two code samples are provided here. One is using Python, the other one is using front end tools for interactive data visualization of class discussion topics.
 
-### 1, Python (python 2.7): https://github.com/qjin2016/code_sample/blob/master/python_sample.md
+### 1, Python (Python 3.5): https://github.com/qjin2016/code_sample/blob/master/python_decision_tree.md
+This is a qucik implementation of decision tree for classification tasks
 
-The code was written to connect to a MSSQL server on Amazon Web Service (AWS), query data (temperature) that was recorded within a specified time interval and generate line plots.
 
 ### 2, Interactive data visualization: https://github.com/qjin2016/code_sample/tree/master/web
 
@@ -15,3 +15,6 @@ This tool was built to visualize various topics of class discussions. Data was s
 On the visualization page, the small circles represent students while the big circles represent topics. If a student (small circle) has discussed a certain topic (a bid circle), there would be a line connecting the small and the big circle. The line width indicates the strength of the connection, the thinker the line, the stronger the connection. As the topics were generated from LDA algorithm, which is essentially a probablistic data mining algorithm, the connection strength can be interpreted as the probability that LDA thinks the student A talked about the topic X.
 
 
+### 3, Python (python 2.7): https://github.com/qjin2016/code_sample/blob/master/python_sample.md
+
+The code was written to connect to a MSSQL server on Amazon Web Service (AWS), query data (temperature) that was recorded within a specified time interval and generate line plots.
