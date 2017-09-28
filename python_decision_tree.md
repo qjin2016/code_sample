@@ -1,4 +1,4 @@
-The following Python code is a quick implementaion of a classification tree. NumPy library is used for data manipulation and calculation. Below provides a simple use case. The code was written in Python 3.5. 
+The following Python code is a quick implementaion of a classification tree. NumPy library is used for data manipulation and calculation. There is a simple use case near the bottom. The code was written in Python 3.5. 
 
 ```python
 # node class, building block for classification tree
