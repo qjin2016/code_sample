@@ -279,7 +279,7 @@ decision_tree = TreeClassifier(np.array(iris))
 decision_tree._Train('Gini', 10, 4, .001)
 
 ### evaluate training results using confusion matrics
-preds = test._Predict(np.array(iris))
+preds = decision_tree._Predict(np.array(iris))
 
 from sklearn.metrics import confusion_matrix
 confusion_matrix(np.array(iris)[:,-1], preds)
