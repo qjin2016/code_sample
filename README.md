@@ -11,7 +11,7 @@ The link contains an interactive data visualization tool built on top of HTML, C
 
 This tool was built to visualize various topics of class discussions. Data was scraped from online class discussion platform and topics was generated through LDA algorithm. Code for data collection and topic mining is not included here. 
 
-On the visualization page, the small circles represent students while the big circles represent topics. If a student (small circle) has discussed a certain topic (a bid circle), there would be a line connecting the small and the big circle. The line width indicates the strength of the connection, the thinker the line, the stronger the connection. As the topics were generated from LDA algorithm, which is essentially a probablistic data mining algorithm, the connection strength can be interpreted as the probability that LDA thinks the student A talked about the topic X.
+On the visualization page, the small circles represent students while the big circles represent topics. If a student (small circle) has discussed a certain topic (a bid circle), there would be a line connecting the small and the big circle. The line width indicates the strength of the connection, the thicker the line, the stronger the connection. As the topics were generated from LDA algorithm, which is essentially a probablistic data mining algorithm, the connection strength can be interpreted as the probability that LDA thinks the student A talked about the topic X.
 
 
 ### 3, Python 2.7, Query and Plot Data from Remote Database on AWS cloud: https://github.com/qjin2016/code_sample/blob/master/python_sample.md
