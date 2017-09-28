@@ -3,7 +3,7 @@
 Two code samples are provided here. One is using Python, the other one is using front end tools for interactive data visualization of class discussion topics.
 
 ### 1, Python (Python 3.5): https://github.com/qjin2016/code_sample/blob/master/python_decision_tree.md
-This is a qucik implementation of decision tree for classification tasks
+This is a qucik implementation of a machine learning algorithm -- decision tree for classification tasks. A use case using iris data is also included.
 
 
 ### 2, Interactive data visualization: https://github.com/qjin2016/code_sample/tree/master/web
