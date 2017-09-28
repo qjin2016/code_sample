@@ -264,12 +264,13 @@ with open('./iris.txt', 'r') as file:
             if l != ['']:
                 iris.append(l)
 
-### transform data format
+### transform data format, use integer to encode classes
 name_dict = {'Iris-setosa': 0, 'Iris-versicolor': 1, 'Iris-virginica': 2, '': 3}
 for l in iris: 
     name = l[-1]
     l[-1] = int(name_dict[name])
-    
+
+### convert othere numeric data to float
 for l in iris:
     for i in range(len(l) - 1):
         l[i] = float(l[i])
@@ -279,8 +280,10 @@ decision_tree = TreeClassifier(np.array(iris))
 decision_tree._Train('Gini', 10, 4, .001)
 
 ### evaluate training results using confusion matrics
+# make predictions based on training
 preds = decision_tree._Predict(np.array(iris))
 
+# get confusion matrix
 from sklearn.metrics import confusion_matrix
 confusion_matrix(np.array(iris)[:,-1], preds)
 
